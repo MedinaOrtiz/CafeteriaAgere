@@ -1,0 +1,72 @@
+@use "../abstracts/variables";
+
+.section {
+  display: flex;
+  flex-direction: row;
+  height: 400px;
+  width: 100%;
+  margin-left: 3%;
+  position: absolute;
+
+  &__data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: 30%;
+    
+  }
+
+  &__title {
+    font-family: $font-primary;
+    font-size: 2em;
+  }
+
+  &__text{
+    font-family: $font-secondary;
+    margin-right: 10%;
+  }
+}
+
+.pool{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    width: 70%;
+  
+    &__color{
+        background-color: $color-blueFrance;
+        width: 57%;
+        height: 80%;
+        left: 3%;
+        position: absolute;
+        z-index: 0;
+    }
+
+    &__map{
+        width: auto;
+        height: 80%;
+        position: absolute;
+        z-index: 1;
+        top: 10%;
+    }
+
+    &__coffe{
+        width: 10%;
+        height: 60%;
+        object-fit: cover;
+        position: absolute;
+        z-index: 4;
+        left: 55%;
+
+    }
+
+    &__coffeMachine{
+        width: 40%;
+        height: 90%;
+        object-fit: cover;
+        position: absolute;
+        z-index: 3;
+        left: 60%;
+    }
+}

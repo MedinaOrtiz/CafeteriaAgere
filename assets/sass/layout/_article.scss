@@ -1,0 +1,84 @@
+@use "../abstracts/variables";
+
+.article {
+  display: flex;
+  height: 700px;
+
+  &__box {
+    display: flex;
+    flex-direction: row;
+    width: 10%;
+  }
+}
+
+.presentacion {
+  display: flex;
+  flex-direction: column;
+  font-family: $font-primary;
+  margin-left: 30%;
+
+  &__Title {
+    font-size: $font-sizeTitle;
+    font-weight: $font-weightTitle;
+  }
+
+  &__Coffe {
+    font-size: 2em;
+  }
+}
+
+.data {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  align-self: end;
+  font-family: $font-secondary;
+  position: absolute;
+  left: 35.2%;
+  width: 40%;
+  height: 20%;
+  background-color: $color-white;
+
+  &__title {
+    font-family: $font-primary;
+    font-size: 3em;
+  }
+
+  &__text {
+    font-size: 1em;
+    line-height: 0.5em;
+  }
+}
+
+.box {
+  display: flex;
+  height: 14em;
+  position: absolute;
+  left: 65.7%;
+  top: 62%;
+
+
+  &__color {
+    background-color: $color-flame;
+    width: 11em;
+    height: 11.5em;
+    position: relative;
+    z-index: 1;
+    left: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $color-white;
+  }
+
+  &__colorBack {
+    background-color: $color-coral;
+    width: 11em;
+    height: 11.5em;
+    left: 100%;
+    position: absolute;
+    z-index: 0;
+    bottom: 0%;
+  }
+}

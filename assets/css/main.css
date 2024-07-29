@@ -1,0 +1,193 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.header {
+  padding: 1em;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 30%;
+}
+.navbar__img {
+  width: 30%;
+}
+.navbar__link {
+  text-decoration: none;
+  font-family: "PT Mono", sans-serif;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 30%;
+}
+.button__btn--disable {
+  font-family: "PT Mono", sans-serif;
+  border: 0.2px solid grey;
+  height: 50%;
+  width: 30%;
+}
+.button__btn--disable .text {
+  text-decoration: none;
+}
+.button__btn--active {
+  font-family: "PT Mono", sans-serif;
+  border: 0.2px solid grey;
+  height: 50%;
+  width: 30%;
+  background-color: #4ca866;
+}
+.button__btn--active .text {
+  text-decoration: none;
+  color: #fff;
+}
+
+.article {
+  display: flex;
+  height: 700px;
+}
+.article__box {
+  display: flex;
+  flex-direction: row;
+  width: 10%;
+}
+
+.presentacion {
+  display: flex;
+  flex-direction: column;
+  font-family: "PT Mono", sans-serif;
+  margin-left: 30%;
+}
+.presentacion__Title {
+  font-size: 4em;
+  font-weight: 500;
+}
+.presentacion__Coffe {
+  font-size: 2em;
+}
+
+.data {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  align-self: end;
+  font-family: "Roboto", sans-serif;
+  position: absolute;
+  left: 35.2%;
+  width: 40%;
+  height: 20%;
+  background-color: #fff;
+}
+.data__title {
+  font-family: "PT Mono", sans-serif;
+  font-size: 3em;
+}
+.data__text {
+  font-size: 1em;
+  line-height: 0.5em;
+}
+
+.box {
+  display: flex;
+  height: 14em;
+  position: absolute;
+  left: 65.7%;
+  top: 62%;
+}
+.box__color {
+  background-color: #e4572e;
+  width: 11em;
+  height: 11.5em;
+  position: relative;
+  z-index: 1;
+  left: 85%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.box__colorBack {
+  background-color: #f1dd7b;
+  width: 11em;
+  height: 11.5em;
+  left: 100%;
+  position: absolute;
+  z-index: 0;
+  bottom: 0%;
+}
+
+.section {
+  display: flex;
+  flex-direction: row;
+  height: 400px;
+  width: 100%;
+  margin-left: 3%;
+  position: absolute;
+}
+.section__data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  width: 30%;
+}
+.section__title {
+  font-family: "PT Mono", sans-serif;
+  font-size: 2em;
+}
+.section__text {
+  font-family: "Roboto", sans-serif;
+  margin-right: 10%;
+}
+
+.pool {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  width: 70%;
+}
+.pool__color {
+  background-color: #3c91e6;
+  width: 57%;
+  height: 80%;
+  left: 3%;
+  position: absolute;
+  z-index: 0;
+}
+.pool__map {
+  width: auto;
+  height: 80%;
+  position: absolute;
+  z-index: 1;
+  top: 10%;
+}
+.pool__coffe {
+  width: 10%;
+  height: 60%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  z-index: 4;
+  left: 55%;
+}
+.pool__coffeMachine {
+  width: 40%;
+  height: 90%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  z-index: 3;
+  left: 60%;
+}/*# sourceMappingURL=main.css.map */
